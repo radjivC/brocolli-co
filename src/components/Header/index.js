@@ -7,7 +7,7 @@ const Header = () => {
         <div className="container">
           <div className="navbar-brand">
             <a className="navbar-item">
-              Brocoli and Co
+              Brocolli and Co
             </a>
           </div>
         </div>

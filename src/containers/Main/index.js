@@ -9,9 +9,12 @@ import 'bulma/css/bulma.css'
 
 const customStyles = {
   content: {
-    top: '40%',
+    top: '50%',
+    height: '90%',
+    width: '90%',
+    maxWidth: '430px',
+    maxHeight: '400px',
     left: '50%',
-    width: '50%',
     right: 'auto',
     bottom: 'auto',
     marginRight: '-50%',
