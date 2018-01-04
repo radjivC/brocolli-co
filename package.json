@@ -5,6 +5,7 @@
   "dependencies": {
     "bulma": "^0.6.1",
     "fetchival": "^0.3.3",
+    "jest": "^22.0.4",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-modal": "^3.1.8",
