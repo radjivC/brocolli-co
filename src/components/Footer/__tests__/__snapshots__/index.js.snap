@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer can render without crashing 1`] = `
+<footer
+  className="footer"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="content has-text-centered"
+    >
+      <p
+        className="has-text-primary"
+      >
+        <strong>
+          Build in Melbourne
+        </strong>
+      </p>
+    </div>
+  </div>
+</footer>
+`;

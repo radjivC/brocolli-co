@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header can render without crashing 1`] = `
+<div
+  className="hero-head"
+>
+  <nav
+    className="navbar"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="navbar-brand"
+      >
+        <a
+          className="navbar-item"
+        >
+          Brocoli and Co
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
+`;

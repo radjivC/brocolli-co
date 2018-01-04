@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
-import './App.css';
 import Modal from 'react-modal'
 import Subscribe from '../../components/Subscribe'
+import Header from '../../components/Header'
+import Footer from '../../components/Footer'
+
 import 'bulma/css/bulma.css'
 
 
@@ -18,7 +20,7 @@ const customStyles = {
 }
 
 
-class App extends Component {
+export default class App extends Component {
 
   constructor(props) {
    super(props)
@@ -40,18 +42,7 @@ class App extends Component {
     return (
       <div>
         <section className="hero is-info is-fullheight">
-          <div className="hero-head">
-            <nav className="navbar">
-              <div className="container">
-                <div className="navbar-brand">
-                  <a className="navbar-item">
-                    Brocoli and Co
-                  </a>
-                </div>
-              </div>
-            </nav>
-          </div>
-
+          <Header />
           <div className="hero-body">
             <div className="container has-text-centered">
               <div className="column is-6 is-offset-3">
@@ -84,24 +75,9 @@ class App extends Component {
                 </div>
               </div>
 
-              <footer className="footer">
-                <div className="container">
-                  <div className="content has-text-centered">
-                    <p className="has-text-primary">
-                      <strong>Build in Melbourne</strong>
-                    </p>
-                  </div>
-                </div>
-              </footer>
+              <Footer />
         </section>
-
-
-
-
-
       </div>
     );
   }
 }
-
-export default App;

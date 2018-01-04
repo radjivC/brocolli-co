@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Subscribe can render without crashing 1`] = `
+<div>
+  <form>
+    <div
+      className="is-uppercase"
+    >
+      <center>
+        <h1
+          className="has-text-info"
+        >
+          Request an Invite
+        </h1>
+      </center>
+      <br />
+    </div>
+    <div
+      className="field"
+    >
+      <div
+        className="control has-icons-left"
+      >
+        <div>
+          <input
+            className="input"
+            name="name"
+            onBlur={[Function]}
+            onChange={[Function]}
+            placeholder="Name"
+            type="text"
+            value=""
+          />
+        </div>
+        <span
+          className="icon is-small is-left"
+        >
+          <i
+            className="fa fa-user"
+          />
+        </span>
+      </div>
+    </div>
+    <div
+      className="field"
+    >
+      <div
+        className="control has-icons-left"
+      >
+        <div>
+          <input
+            className="input"
+            name="email"
+            onBlur={[Function]}
+            onChange={[Function]}
+            placeholder="Email"
+            type="email"
+            value=""
+          />
+        </div>
+        <span
+          className="icon is-small is-left"
+        >
+          <i
+            className="fa fa-envelope"
+          />
+        </span>
+      </div>
+    </div>
+    <div
+      className="field"
+    >
+      <div
+        className="control has-icons-left"
+      >
+        <div>
+          <input
+            className="input"
+            name="confirmEmail"
+            onBlur={[Function]}
+            onChange={[Function]}
+            placeholder="Confirm Email"
+            type="confirmEmail"
+            value=""
+          />
+        </div>
+        <span
+          className="icon is-small is-left"
+        >
+          <i
+            className="fa fa-envelope"
+          />
+        </span>
+      </div>
+    </div>
+    <br />
+    <div>
+      <center>
+        <p>
+          Please enter the details above and then click submit.
+        </p>
+      </center>
+      <br />
+      <center>
+        <button
+          className="button is-primary is-medium"
+          disabled={true}
+          onClick={[Function]}
+        >
+          Submit
+        </button>
+      </center>
+    </div>
+  </form>
+</div>
+`;

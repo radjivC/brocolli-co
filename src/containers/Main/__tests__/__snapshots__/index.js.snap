@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Subscribe can render without crashing 1`] = `
+<div>
+  <section
+    className="hero is-info is-fullheight"
+  >
+    <div
+      className="hero-head"
+    >
+      <nav
+        className="navbar"
+      >
+        <div
+          className="container"
+        >
+          <div
+            className="navbar-brand"
+          >
+            <a
+              className="navbar-item"
+            >
+              Brocoli and Co
+            </a>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div
+      className="hero-body"
+    >
+      <div
+        className="container has-text-centered"
+      >
+        <div
+          className="column is-6 is-offset-3"
+        >
+          <h1
+            className="title"
+          >
+            A better way to enjoy every day.
+          </h1>
+          <h2
+            className="subtitle"
+          >
+            Be the first to know when we launch
+          </h2>
+          <a
+            className="bd-tw-button button is-danger"
+            onClick={[Function]}
+          >
+            <span
+              className="icon"
+            >
+              <i
+                className="fa fa-paper-plane"
+              />
+            </span>
+            <span
+              className="is-capitalized"
+            >
+              Request an invite
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <footer
+      className="footer"
+    >
+      <div
+        className="container"
+      >
+        <div
+          className="content has-text-centered"
+        >
+          <p
+            className="has-text-primary"
+          >
+            <strong>
+              Build in Melbourne
+            </strong>
+          </p>
+        </div>
+      </div>
+    </footer>
+  </section>
+</div>
+`;
